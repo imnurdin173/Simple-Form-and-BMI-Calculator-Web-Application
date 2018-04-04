@@ -1,0 +1,155 @@
+body {
+    background-color:#d2d2d2;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:5%;
+}
+.contain {
+    width:80%;
+    margin:0 auto;
+} 
+.header {display: block;
+    width:100%;
+    height:100px;
+    background-color:maroon;
+    text-align: center;
+    color:#fff;
+} 
+.header p {
+    line-height:60px;
+    font-size:24px;
+    font-weight:700;
+    margin:0;
+}
+section {
+    background-color:#fff;
+    width:100%;
+} 
+.konten {
+    width:80%;
+    margin:0 auto;
+    padding:10px 0 10px 0;
+    display:block;
+} 
+.konten h3 {
+    margin-top:0;
+    text-align:center;
+    padding-top:10px;
+} 
+.inputan {
+    padding:10px auto 10px auto;
+}
+
+.warn {
+    display:block;
+    margin:5px;
+    width:200px;
+    padding:5px;
+    background-color:red;
+    color:white;
+    border-radius:5px;
+}
+
+.sukses {
+    display:block;
+    width:500px;
+    margin:5px;
+    padding:5px;
+    background-color:green;
+    color:white;
+    border-radius:5px;
+
+}
+
+.img-box {
+    display:inline-block;
+    width:135px;
+    padding:5px;
+    text-align:center;
+    margin:20px 10px 10px 10px;
+    background-color:#d4d4d4;
+    border-radius:5px;
+}
+
+.konten .img-box img {
+    text-align:center;
+    display:block;
+    margin:0 auto;
+}
+
+.konten .img-box p {
+    text-align:center;
+}
+
+.footer {
+    text-align:center;
+    display:block;
+    width:100%;
+    height:30px;
+    background-color:#000;
+    color:#fff;
+    font-size:12px;
+    line-height:30px;
+}
+
+.konten .images {
+    width:100px;
+    margin:5px;
+}
+
+.footer p {
+    margin:0;
+}
+
+.menu a {
+    text-decoration:none;
+    font-size:16px;
+    text-transform: uppercase;
+    color:white;
+    margin:3px;
+}
+
+.menu a:hover {
+    text-decoration:none;
+    font-size:16px;
+    text-transform: uppercase;
+    color:red;
+    margin:3px;
+}
+
+.profil {
+    margin:0 auto;
+}
+
+.profil input[type=text]{
+    width: 50%;
+    height: 25px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    color: maroon;
+    font-size: 16px;
+}
+
+.profil label{
+    color: #53bd84;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.profil input[type=submit]{
+    font-size: 16px;
+    background: maroon;
+    border:transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 51%;
+    padding: 10px 0;
+    outline:none;
+}
+
+.output {
+    margin-top:20px;
+}
